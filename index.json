@@ -1,0 +1,17 @@
+{
+  "skills": [
+    {
+      "name": "kdu9-voz",
+      "version": 1,
+      "files": [
+        "SKILL.md",
+        "references/exemplos-de-fala.md",
+        "references/distribuicao.md",
+        "scripts/kdu-falar.sh",
+        "scripts/kdu-tts-daemon.py",
+        "scripts/kdu9-voz.sh",
+        "scripts/instalar.sh"
+      ]
+    }
+  ]
+}
