@@ -32,7 +32,7 @@ O usuário adiciona uma linha em `~/.config/opencode/opencode.json`:
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "skills": ["https://raw.githubusercontent.com/SuporteTecnicoID/kdu9-opencode/main/"]
+  "skills": ["https://raw.githubusercontent.com/SuporteTecnicoID-KDu/kdu9-opencode/main/"]
 }
 ```
 
@@ -59,7 +59,7 @@ E o catálogo é um `index.json` na raiz:
 ```
 
 Cada arquivo sai de `<base-url>/<name>/<file>`, ou seja,
-`https://raw.githubusercontent.com/SuporteTecnicoID/kdu9-opencode/main/kdu9-voz/SKILL.md`. Ao mudar um arquivo,
+`https://raw.githubusercontent.com/SuporteTecnicoID-KDu/kdu9-opencode/main/kdu9-voz/SKILL.md`. Ao mudar um arquivo,
 incremente `version` para o OpenCode atualizar o cache.
 
 ### 3. Workspace do OpenCode Console

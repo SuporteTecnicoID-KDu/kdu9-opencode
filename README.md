@@ -26,7 +26,7 @@ Adicione **uma linha** em `~/.config/opencode/opencode.json`:
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "skills": ["https://suportetecnicoid.github.io/kdu9-opencode/"]
+  "skills": ["https://suportetecnicoid-kdu.github.io/kdu9-opencode/"]
 }
 ```
 
@@ -36,7 +36,7 @@ O OpenCode baixa a skill sozinho. Não precisa reiniciar.
 
 ```sh
 mkdir -p ~/.config/opencode/skills
-git clone https://github.com/SuporteTecnicoID/kdu9-opencode.git /tmp/kdu-skills
+git clone https://github.com/SuporteTecnicoID-KDu/kdu9-opencode.git /tmp/kdu-skills
 cp -r /tmp/kdu-skills/kdu9-voz ~/.config/opencode/skills/
 ```
 
