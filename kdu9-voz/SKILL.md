@@ -103,6 +103,13 @@ O dono corrige as falas. Se ele reportar uma fala estranha:
   `KDu9-Voz/KDu9-Corretor-de-Falas.sh`.
 - Não tente contornar reescrevendo o texto de forma esquisita: reporte a falha.
 
+## Regra 8 — Presença (câmera/visão) e aviso de conclusão
+
+- A fala é vinculada à presença: ao concluir/verificar/reparar/instalar, fale o resultado **associado ao trabalho** (ex.: "A verificação terminou.", "Os reparos foram feitos.", "A instalação foi concluída.", "O script está pronto para testes.", "Preciso de sua permissão.", "Ainda aguardando sua permissão.", "Ainda aguardando sua escolha para prosseguir.").
+- **Não fique sozinho ao finalizar**: se o dono não responder, repita o aviso **3 vezes**.
+- Se a **câmera/visão (Visão) não detectar ninguém**, continue repetindo até o dono responder/parecer.
+- Dê vida à interação: sempre associe a fala ao estado atual do trabalho (concluído, aguardando permissão, aguardando senha, etc.), nunca fale solto.
+
 ## Referências
 
 - `references/exemplos-de-fala.md` — exemplos de antes/depois (texto × fala).
